@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Chess Rays</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="chess_rays">CHESS RAYS</string>
+
+    <string name="tab_text_1">Sign In</string>
+    <string name="tab_text_2">Sign Up</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+    <string name="equal">=</string>
+    <string name="frequency">Frequency</string>
+    <string name="total">Total</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="opening_detail">Opening detail</string>
+    <string name="all_challenges">All Challenges</string>
+    <string name="name">Name</string>
+    <string name="all_handling">All Handling</string>
+    <string name="loos">Loos</string>
+    <string name="draw">Draw</string>
+    <string name="win">Win</string>
+    <string name="loss">Loss</string>
+    <string name="game_analysis">Game analysis</string>
+    <string name="score">Score</string>
+    <string name="total_win">Total win</string>
+    <string name="total_draw">Total draw</string>
+    <string name="total_loss">Total loss</string>
+    <string name="challenge">Challenge</string>
+    <string name="handling">Handling</string>
+    <string name="create_new">CREATE NEW</string>
+    <string name="player2">Player2</string>
+    <string name="start_handling">Start handling</string>
+    <string name="details">Details</string>
+    <string name="game_detail">Game detail</string>
+    <string name="opening">Opening</string>
+    <string name="middle">Middle</string>
+    <string name="end">End</string>
+
+    <!--Spinner-->
+    <string-array name="gameType">
+        <item>Classical</item>
+        <item>Rapid</item>
+        <item>Blitz</item>
+        <item>Fischer Random</item>
+    </string-array>
+
+    <!--Spinner color-->
+    <string-array name="color">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <!--Spinner view middle-->
+    <string-array name="middleView">
+        <item>All</item>
+        <item>Strategic</item>
+        <item>Tactical</item>
+        <item>Chaos</item>
+    </string-array>
+    <!--Spinner middle-->
+    <string-array name="middle">
+        <item>Strategic</item>
+        <item>Tactical</item>
+        <item>Chaos</item>
+    </string-array>
+    <!--Spinner middle type-->
+    <string-array name="middleStrategicType">
+        <item>Open Position</item>
+        <item>Semi-open Position</item>
+        <item>Closed Position</item>
+    </string-array>
+
+    <!--Spinner middle type-->
+    <string-array name="middleTacticalType">
+        <item>Attacking the king</item>
+        <item>Defending the king</item>
+        <item>Cominative game</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mistakes">Mistakes</string>
+    <string name="opening_games">Opening games</string>
+    <string name="first_move">First move</string>
+    <string name="color">Color</string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="install_new_game">Install new game</string>
+    <string name="game_type">Game type</string>
+    <string name="enter_your_rate">Enter your rating</string>
+    <string name="add_new_move">Add new move</string>
+    <string name="move">Move</string>
+    <string name="moves">Moves</string>
+    <string name="result">Result</string>
+    <string name="previous_move">Previous move</string>
+    <string name="enter_opponent_s_rating">Enter opponent rating</string>
+    <string name="the_data_on">The data on</string>
+    <string name="middlegame">Middlegame</string>
+    <string name="endgame">Endgame</string>
+    <string name="the_data_is_in_any_game">The data is in any game</string>
+    <string name="winning_percentage">Winning percentage</string>
+    <string name="add_opening">Add Opening</string>
+    <string name="input_data_when_ready">Input data when ready</string>
+    <string name="handling_of_the_opening">Handling of the opening</string>
+    <string name="handling_of_the_middle">Handling of the middle</string>
+    <string name="result_of_the_opening">Result of the opening</string>
+    <string name="result_of_the_middle">Result of the middle</string>
+    <string name="opening_name">Opening Name</string>
+    <string name="variation_analysis">Variation Analysis</string>
+    <string name="edit">Edit</string>
+    <string name="date">Date</string>
+    <string name="lost">Lost</string>
+    <string name="enter_opponent_name">Enter opponent name</string>
+    <string name="add_the_rating">Add the rating</string>
+    <string name="scoring">Scoring</string>
+    <string name="middle_game">Middle game</string>
+    <string name="end_game">End game</string>
+    <string name="create_opening">Create Opening</string>
+    <string name="either_color_of_middle">Either color of middle</string>
+    <string name="occurance">Occurance</string>
+    <string name="middling">Middling</string>
+    <string name="add_middling">Add Middling</string>
+    <string name="create_middling">Create middling</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.moomen.chessrays.ui.Fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_opening"
+        android:name="com.moomen.chessrays.ui.Fragment.OpeningFragment"
+        android:label="@string/opening"
+        tools:layout="@layout/fragment_opening" />
+
+    <fragment
+        android:id="@+id/navigation_middle"
+        android:name="com.moomen.chessrays.ui.Fragment.MiddleFragment"
+        android:label="@string/middle"
+        tools:layout="@layout/fragment_middle" />
+    <fragment
+        android:id="@+id/navigation_end"
+        android:name="com.moomen.chessrays.ui.Fragment.EndFragment"
+        android:label="@string/end"
+        tools:layout="@layout/fragment_end" />
+    <fragment
+        android:id="@+id/navigation_mistakes"
+        android:name="com.moomen.chessrays.ui.Fragment.MistakesFragment"
+        android:label="@string/mistakes"
+        tools:layout="@layout/fragment_mistakes" />
+</navigation>
