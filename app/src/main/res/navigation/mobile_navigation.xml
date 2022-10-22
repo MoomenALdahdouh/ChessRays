@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.moomen.chessrays.ui.Fragment.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_opening"
+        android:name="com.moomen.chessrays.ui.Fragment.OpeningFragment"
+        android:label="@string/opening"
+        tools:layout="@layout/fragment_opening" />
+
+    <fragment
+        android:id="@+id/navigation_middle"
+        android:name="com.moomen.chessrays.ui.Fragment.MiddleFragment"
+        android:label="@string/middlegame"
+        tools:layout="@layout/fragment_middle" />
+    <fragment
+        android:id="@+id/navigation_end"
+        android:name="com.moomen.chessrays.ui.Fragment.EndFragment"
+        android:label="@string/endgame"
+        tools:layout="@layout/fragment_end" />
+    <fragment
+        android:id="@+id/navigation_themes"
+        android:name="com.moomen.chessrays.ui.Fragment.ThemesFragment"
+        android:label="@string/themes"
+        tools:layout="@layout/fragment_themes" />
+
+    <fragment
+        android:id="@+id/navigation_mistakes"
+        android:name="com.moomen.chessrays.ui.Fragment.MistakesFragment"
+        android:label="@string/mistakes"
+        tools:layout="@layout/fragment_mistakes" />
+    <fragment
+        android:id="@+id/navigation_mistakes_per_move"
+        android:name="com.moomen.chessrays.ui.Fragment.MistakesPerMoveFragment"
+        android:label="@string/mistakes_per_move"
+        tools:layout="@layout/fragment_mistakes_per_move" />
+    <fragment
+        android:id="@+id/navigation_about_us"
+        android:name="com.moomen.chessrays.ui.Fragment.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/navigation_sign_out"
+        android:name="com.moomen.chessrays.ui.Fragment.SignOutFragment"
+        android:label="@string/sign_out"
+        tools:layout="@layout/fragment_sign_out" />
+
+</navigation>

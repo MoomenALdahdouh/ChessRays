@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FontTheme1">
+        <item name="android:textColor">@color/gray</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontTheme2">
+        <item name="android:textColor">@color/gray</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <style name="FontTheme3">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="FontTheme3_4">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="FontTheme3_0">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingStart">8sp</item>
+        <item name="android:paddingEnd">8sp</item>
+    </style>
+
+    <style name="FontTheme3_1">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingStart">8sp</item>
+        <item name="android:paddingEnd">8sp</item>
+    </style>
+
+    <style name="FontTheme3_1_0">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FontTheme3_2">
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingStart">8sp</item>
+        <item name="android:paddingEnd">8sp</item>
+    </style>
+
+    <style name="FontTheme3_3">
+        <item name="android:textColor">@color/white</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingStart">8sp</item>
+        <item name="android:paddingEnd">8sp</item>
+    </style>
+
+    <style name="FontTheme4">
+        <item name="android:textColor">@color/gray</item>
+        <!--<item name="android:fontFamily">cursive</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FontTheme5">
+        <item name="android:textColor">@color/gray</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontTheme6">
+        <item name="android:textColor">@color/gray</item>
+        <!--<item name="android:typeface">monospace</item>-->
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home" />
+
+        <item
+            android:id="@+id/navigation_opening"
+            android:icon="@drawable/ic_baseline_folder_open_24"
+            android:title="@string/opening" />
+
+        <item
+            android:id="@+id/navigation_middle"
+            android:icon="@drawable/ic_baseline_folder_open_24"
+            android:title="@string/middlegame" />
+        <item
+            android:id="@+id/navigation_end"
+            android:icon="@drawable/ic_baseline_folder_open_24"
+            android:title="@string/endgame" />
+        <item
+            android:id="@+id/navigation_themes"
+            android:icon="@drawable/ic_baseline_folder_open_24"
+            android:title="@string/themes" />
+
+        <item
+            android:id="@+id/navigation_mistakes"
+            android:icon="@drawable/ic_baseline_album_24"
+            android:title="@string/mistakes" />
+        <item
+            android:id="@+id/navigation_mistakes_per_move"
+            android:icon="@drawable/ic_baseline_album_24"
+            android:title="@string/mistakes_per_move" />
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/navigation_about_us"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="@string/about_us" />
+        </group>
+
+        <group>
+            <item
+                android:id="@+id/navigation_sign_out"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="@string/sign_out" />
+        </group>
+    </group>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/add_theme"
+        app:showAsAction="never" />
+
+    <!--<item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navigation_opening"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/opening"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/navigation_middle"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/middle_game"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/navigation_end"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/endgame"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/navigation_themes"
+        android:icon="@drawable/ic_baseline_album_24"
+        android:title="@string/themes"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/navigation_mistakes"
+        android:icon="@drawable/ic_baseline_album_24"
+        android:title="@string/mistakes"
+        app:showAsAction="never"/>-->
+</menu>

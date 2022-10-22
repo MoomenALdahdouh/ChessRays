@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moomen.chessrays">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChessRays"
+        android:windowSoftInputMode="stateHidden">
+        <activity android:name=".ui.Activity.ViewOpeningChallenge"
+            android:theme="@style/Theme.ChessRays3"/>
+        <activity android:name=".ui.Activity.ViewEndGame"
+            android:theme="@style/Theme.ChessRays2">
+
+        </activity>
+        <activity android:name=".ui.Activity.ViewMiddleGame"
+            android:theme="@style/Theme.ChessRays2">
+        </activity>
+        <activity android:name=".ui.Activity.ViewOpeningGame"
+            android:theme="@style/Theme.ChessRays2"/>
+        <activity android:name=".ui.Activity.ViewThemesGame"
+            android:theme="@style/Theme.ChessRays2"/>
+        <activity android:name=".ui.Activity.ViewMistakeGame"
+            android:theme="@style/Theme.ChessRays2"/>
+
+        <activity android:name=".ui.Activity.EndGame" />
+        <activity android:name=".ui.Activity.MiddleGame" />
+        <activity android:name=".ui.Activity.IntroActivity" />
+        <activity android:name=".ui.Activity.SplashActivity"
+            android:theme="@style/Theme.ChessRays4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Activity.MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_opening"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/opening" />
+
+    <item
+        android:id="@+id/navigation_middle"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/middlegame" />
+    <item
+        android:id="@+id/navigation_end"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/endgame" />
+    <item
+        android:id="@+id/navigation_themes"
+        android:icon="@drawable/ic_baseline_folder_open_24"
+        android:title="@string/themes" />
+
+    <!--<item
+        android:id="@+id/navigation_mistakes"
+        android:icon="@drawable/ic_baseline_album_24"
+        android:title="@string/mistakes" />-->
+</menu>
